@@ -8,8 +8,10 @@ namespace FinalProject.Source
 {
     public class Alimento : Produto
     {
+        // Variavel privada que armazena a data de validade do alimento.
         private string _validade;
         
+        // Construtor com parametros do produto de alimento.
         public Alimento(string nome, float preco, float peso, string fabricante, TipoProduto tipoProduto = TipoProduto.ALIMENTO, string validade = null)
         {
             Nome = nome;

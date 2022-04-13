@@ -9,6 +9,7 @@ namespace FinalProject.Source
     public class Limpeza : Produto
     {
 
+        // Construtor com parametros do produto de limpeza
         public Limpeza(string nome, float preco, float peso, string fabricante, TipoProduto tipoProduto = TipoProduto.LIMPEZA)
         {
             Nome = nome;
