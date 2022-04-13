@@ -17,8 +17,8 @@ namespace FinalProject
         private static void CadastrarProdutos()
         {
             // Cria os produtos de tecnologia.
-            Tecnologia monitor = new Tecnologia("Monitor", 2000.0f, 5.0f, "Asus", TipoProduto.TECNOLOGIA);
-            Tecnologia iphone15 = new Tecnologia("Iphone15", 9999999.0f, 2.0f, "Apple", TipoProduto.TECNOLOGIA);
+            Tecnologia monitor = new Tecnologia("Monitor", 2000.0f, 5.0f, "Asus", TipoProduto.TECNOLOGIA, "Garantia Estendida 12 Meses");
+            Tecnologia iphone15 = new Tecnologia("Iphone15", 9999999.0f, 2.0f, "Apple", TipoProduto.TECNOLOGIA, "Seguro pro aparelho");
 
             // Cria os produtos de limpeza.
             Limpeza fralda = new Limpeza("Fralda", 100.0f, 1.0f, "Harpa", TipoProduto.LIMPEZA);
