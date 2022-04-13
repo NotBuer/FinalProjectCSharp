@@ -10,7 +10,7 @@ namespace FinalProject.Source
     {
 
         // Construtor com parametros do produto de tecnologia.
-        public Tecnologia(string nome, float preco, float peso, string fabricante, TipoProduto tipoProduto = TipoProduto.ALIMENTO)
+        public Tecnologia(string nome, float preco, float peso, string fabricante, TipoProduto tipoProduto = TipoProduto.TECNOLOGIA)
         {
             Nome = nome;
             Preco = preco;
